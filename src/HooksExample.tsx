@@ -28,12 +28,11 @@ export default function UseStateExample() {
     );
   }, []);
   // Cleanup
-  useEffect(
-    () => () => {
-      alert("Cleanup. Similar to componentDidUnmount");
-    },
-    []
-  );
+  useEffect(() => {
+    return () => {
+      console.log("Cleanup. Similar to componentDidUnmount");
+    };
+  }, []);
   console.log("Render");
   return (
     <>
