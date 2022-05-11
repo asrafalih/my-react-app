@@ -2,6 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import JsxTsxExample from './JsxTsxExample';
+// import Fc from './FunctionalComponents'
+// import PropsExample from './PropsExample'
+// import StateExample from './StateExample'
+// import EventsExample from './EventsExample'
+// import RestApiExample from './RestApiExample'
+// import HooksExample from './HooksExample'
+// import Router from './Router'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +17,14 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    {/* <RestApiExample username='gaearon'/>
+    <hr/>
+    <RestApiExample username='sophiebits'/>
+    <hr/>
+    <RestApiExample username='jdalton'/>
+    <hr/>
+    <RestApiExample username='asrafalih'/> */}
   </React.StrictMode>
 );
 
