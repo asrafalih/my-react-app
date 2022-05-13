@@ -5,6 +5,7 @@ import App from './App';
 // import JsxTsxExample from './JsxTsxExample';
 // import Fc from './FunctionalComponents'
 // import PropsExample from './PropsExample'
+// import PropsChildren from './PropsChildren'
 // import StateExample from "./StateExample";
 // import VisibilityToggle from "./VisibilityToggle";
 // import EventsExample from './EventsExample'
@@ -18,7 +19,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App/>
+    <App />
     {/* <RestApiExample username='gaearon'/>
     <hr/>
     <RestApiExample username='sophiebits'/>
